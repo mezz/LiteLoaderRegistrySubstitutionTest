@@ -1,0 +1,16 @@
+[
+{
+  "modid": "liteloaderregistrysubstitutiontest",
+  "name": "LiteLoader Registry Substitution Test",
+  "description": "Test that LiteLoader breaks when a mod uses Forge Registry Substitution.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["mezz"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
