@@ -36,10 +36,10 @@ repositories {
 }
 
 dependencies {
-    deobfCompile('com.mumfrey:liteloader:1.12.2-SNAPSHOT') {
+    runtimeOnly('com.mumfrey:liteloader:1.12.2-SNAPSHOT') {
         transitive = false;
     }
-    runtime('org.spongepowered:mixin:0.7.5-SNAPSHOT') {
+    runtimeOnly('org.spongepowered:mixin:0.7.5-SNAPSHOT') {
         exclude module: 'asm-commons'
         exclude module: 'asm-tree'
         exclude module: 'launchwrapper'
